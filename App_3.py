@@ -10,7 +10,6 @@ for i in range(amount_friends):
     name = input('Введите имя: ')
     age = int(input('Введите возраст: '))
     dict_friends[name] = age
-# friends.append(dict_friends)
 
 friends = list(dict_friends.items())
 print('Список друзей:', friends)
