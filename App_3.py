@@ -14,8 +14,8 @@ for i in range(amount_friends):
 friends = list(dict_friends.items())
 print('Список друзей:', friends)
 
-max_value = min(dict_friends.values())
+min_value = min(dict_friends.values())
 for name, age in dict_friends.items():
-        if age == max_value:
+        if age == min_value:
             print('Самый младший друг:', name)
 
